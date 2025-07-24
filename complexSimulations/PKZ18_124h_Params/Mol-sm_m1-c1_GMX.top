@@ -1,0 +1,16 @@
+; Mol-sm_m1-c1_GMX.top created by acpype (Rev: 403) on Mon Aug 21 11:19:29 2023
+
+; Include CG FF
+#include "ions.ff/forcefield.itp"
+; Include Mol-sm_m1-c1_GMX.itp topology
+#include "Mol-sm_m1-c1_GMX.itp"
+;include water
+#include "ions.ff/tip4pew.itp"
+
+
+[ system ]
+ Mol-sm_m1-c1
+
+[ molecules ]
+; Compound        nmols
+ Mol-sm_m1-c1     1     

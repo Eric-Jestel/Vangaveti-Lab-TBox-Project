@@ -1,0 +1,20 @@
+[INFO   ] Starting gmx_MMPBSA v1.6.3
+[DEBUG  ] WDIR          : /network/rit/home/sv965836/RNAILabs/users/ej276743/spec_loop/PKZ_Complex/PKZ18_124/sim/ions.ff
+[DEBUG  ] AMBERHOME     : /home/eric/miniconda3/envs/gmxMMPBSA
+[DEBUG  ] PYTHON EXE    : /home/eric/miniconda3/envs/gmxMMPBSA/bin/python
+[DEBUG  ] PYTHON VERSION: 3.10.13 | packaged by conda-forge | (main, Dec 23 2023, 15:36:39) [GCC 12.3.0]
+[DEBUG  ] MPI           : /home/eric/miniconda3/envs/gmxMMPBSA/bin/mpirun
+[DEBUG  ] ParmEd        : 4.2.2
+[DEBUG  ] OS PLATFORM   : Linux-6.5.0-25-generic-x86_64-with-glibc2.35
+[DEBUG  ] OS SYSTEM     : Linux
+[DEBUG  ] OS VERSION    : #25~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Feb 20 16:09:15 UTC 2
+[DEBUG  ] OS PROCESSOR  : x86_64
+
+[INFO   ] Command-line
+  gmx_MMPBSA -O -i mmpbsa.in -cs final.tpr -ci final.ndx -cg 1 2 -ct fitted.xtc -cp final.top -o FINAL_RESULTS_MMPBSA.dat -eo FINAL_RESULTS_MMPBSA.csv -do FINAL_DECOMP_MMPBSA.dat -deo FINAL_DECOMP_MMPBSA.csv
+
+[ERROR  ] MMPBSA_Error 
+
+final.tpr do not exist or is inaccessible
+
+Check the gmx_MMPBSA.log file to report the problem.
